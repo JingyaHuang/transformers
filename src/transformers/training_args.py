@@ -94,6 +94,7 @@ class OptimizerNames(ExplicitEnum):
     ADAMW_TORCH = "adamw_torch"
     ADAMW_TORCH_XLA = "adamw_torch_xla"
     ADAMW_APEX_FUSED = "adamw_apex_fused"
+    ADAMW_ORT_FUSED = "adamw_ort_fused"
     ADAFACTOR = "adafactor"
     ADAMW_BNB = "adamw_bnb_8bit"
     SGD = "sgd"
